@@ -30,9 +30,8 @@ def polygon(t, length, n):
     length: length of each segment
     """
 
-    angle = 360/n
+    angle = 360 / n
     polyline(t, n=n, length=length, angle=angle)
-
 
 
 def circle(t, r):
@@ -42,6 +41,7 @@ def circle(t, r):
     r: radius of the circle
     """
     arc(t, r, 360)
+
 
 def arc(t, r, angle):
     """Draws an arc of circle
