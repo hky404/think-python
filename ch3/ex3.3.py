@@ -19,7 +19,6 @@ print('-')
 The output of these statements is '+ -' on the same line. The output from the next print statement would begin on the next line.
 
 * Write a function that draws a similar grid with four rows and four columns.
-
 """
 
 
